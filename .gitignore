@@ -132,3 +132,7 @@ dist
 
 # databases
 dev.db*
+
+# remix
+build
+public/build
