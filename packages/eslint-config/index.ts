@@ -1,23 +1,23 @@
-import type { Linter } from "eslint";
+import type { Linter } from 'eslint'
 
 const config: Linter.Config = {
   env: {
     es2022: true,
-    browser: true,
+    browser: true
   },
   extends: [
-    "turbo",
-    "prettier",
-    "eslint:recommended",
-    "standard-with-typescript",
-    "plugin:react/recommended",
-    "plugin:react/jsx-runtime",
+    'turbo',
+    'prettier',
+    'eslint:recommended',
+    'standard-with-typescript',
+    'plugin:react/recommended',
+    'plugin:react/jsx-runtime'
   ],
-  parser: "@typescript-eslint/parser",
+  parser: '@typescript-eslint/parser',
   settings: {
-    react: { version: "detect" },
+    react: { version: 'detect' }
   },
-  ignorePatterns: ["dist", "build", "node_modules"],
-};
+  ignorePatterns: ['dist', 'build', 'node_modules']
+}
 
-export = config;
+export = config
