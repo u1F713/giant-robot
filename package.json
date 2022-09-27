@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "name": "giant-robot",
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev --parallel",
+    "lint": "turbo run lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "@giant-robot/eslint-config": "workspace:*",
+    "@giant-robot/tsconfig": "workspace:*",
+    "eslint": "^8.24.0",
+    "husky": "^8.0.1",
+    "prettier": "^2.7.1",
+    "turbo": "^1.5.3"
+  }
+}

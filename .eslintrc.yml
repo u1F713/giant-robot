@@ -1,0 +1,4 @@
+root: true
+extends: ["@giant-robot/eslint-config"]
+parserOptions:
+  project: ["./tsconfig.json"]

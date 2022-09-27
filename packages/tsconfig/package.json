@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "name": "@giant-robot/tsconfig",
+  "files": [
+    "base.json"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}

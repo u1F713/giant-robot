@@ -1,0 +1,7 @@
+{
+  "extends": "@giant-robot/tsconfig/base",
+  "compileOnSave": false,
+  "compilerOptions": {
+    "noEmit": true
+  }
+}
