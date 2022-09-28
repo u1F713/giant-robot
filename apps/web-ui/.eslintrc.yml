@@ -1,4 +1,5 @@
 root: true
-extends: ["@remix-run/eslint-config", "@remix-run/eslint-config/node"]
+# Disable @remix-run/eslint-config, use custom config instead.
+extends: ["@giant-robot/eslint-config", "@remix-run/eslint-config/node"]
 parserOptions:
   project: ["./tsconfig.json"]
