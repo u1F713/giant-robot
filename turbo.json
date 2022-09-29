@@ -1,6 +1,6 @@
 {
   "$schema": "https://turborepo.org/schema.json",
-  "globalDependencies": [".env"],
+  "globalDependencies": [".env", "$NODE_ENV", "$BEARER_TOKEN"],
   "globalEnv": ["NODE_ENV"],
   "pipeline": {
     "build": {

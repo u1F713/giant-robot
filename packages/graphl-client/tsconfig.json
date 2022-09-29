@@ -1,0 +1,13 @@
+{
+  "extends": "@giant-robot/tsconfig/base",
+  "compileOnSave": false,
+  "compilerOptions": {
+    "outDir": "./dist",
+    "baseUrl": ".",
+    "types": ["jest"],
+    "removeComments": true,
+    "lib": ["DOM", "DOM.Iterable"],
+    "paths": {}
+  },
+  "include": ["**/*.ts", "**/*d.ts"]
+}
