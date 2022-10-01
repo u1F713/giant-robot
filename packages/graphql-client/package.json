@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "@giant-robot/graphl-client",
+  "name": "@giant-robot/graphql-client",
   "main": "dist/index.js",
   "scripts": {
     "build": "rm -rf ./dist && tsc -p tsconfig.build.json",
