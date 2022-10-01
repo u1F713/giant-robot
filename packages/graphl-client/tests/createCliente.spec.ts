@@ -17,7 +17,6 @@ describe('Client create', () => {
     const client = createClient()
     const resp = await client.query({ query })
 
-    console.log(resp)
-    expect(resp).toBeDefined()
+    expect(resp.loading).toBeFalsy()
   })
 })
