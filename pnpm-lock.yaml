@@ -21,6 +21,7 @@ importers:
   apps/web-ui:
     specifiers:
       '@giant-robot/eslint-config': workspace:*
+      '@giant-robot/graphql-client': workspace:*
       '@remix-run/dev': ^1.7.2
       '@remix-run/eslint-config': ^1.7.2
       '@remix-run/node': ^1.7.2
@@ -40,6 +41,7 @@ importers:
       react-dom: 18.2.0_react@18.2.0
     devDependencies:
       '@giant-robot/eslint-config': link:../../packages/eslint-config
+      '@giant-robot/graphql-client': link:../../packages/graphql-client
       '@remix-run/dev': 1.7.2_63cxfdg5f5bb4xpkk3vcjfcl3q
       '@remix-run/eslint-config': 1.7.2_fgezb2aih6hlakmbh3q2tcq5g4
       '@types/react': 18.0.21

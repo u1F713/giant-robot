@@ -1,4 +1,16 @@
-import { RemixBrowser } from '@remix-run/react'
+import { FunctionComponent } from 'react'
 import { hydrateRoot } from 'react-dom/client'
+import { RemixBrowser } from '@remix-run/react'
+import { ClientProvider, createClient } from '@giant-robot/graphql-client'
 
-hydrateRoot(document, <RemixBrowser />)
+const AppShell: FunctionComponent = () => {
+  const client = createClient()
+
+  return (
+    <ClientProvider client={client}>
+      <RemixBrowser />
+    </ClientProvider>
+  )
+}
+
+hydrateRoot(document, <AppShell />)
