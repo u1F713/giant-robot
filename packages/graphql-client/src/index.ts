@@ -1,4 +1,7 @@
-import { ApolloProvider as ClientProvider } from '@apollo/client'
+import {
+  ApolloProvider as ClientProvider,
+  useApolloClient as useGraphqlClient
+} from '@apollo/client'
 import createClient from './client'
 
-export { createClient, ClientProvider }
+export { createClient, ClientProvider, useGraphqlClient }
